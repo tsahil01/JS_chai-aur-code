@@ -6,9 +6,9 @@ console.log(scoreInNumber)
 
 console.log(typeof(scoreInNumber));
 
-
-
 // "33" => 33
 // "33abc" => NaN (Not a number)
 // true => 1
 // false => 0
+
+// ******************** Operations *************
