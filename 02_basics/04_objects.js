@@ -33,3 +33,26 @@ const obj3 = {...obj1, ...obj2} // Spread operator
 // console.log(Object.values(tinderUser)); // gives op in Array
 // console.log(Object.entries(tinderUser)); // [[key, value]]
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+const course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor} = course // destructuring
+const {price: p} = course // changing name of price as p
+
+// console.log(courseInstructor);
+// console.log(p);
+
+
+// JSON => both key and value(not always) are in string.
+
+// { 
+//     "name": "hitesh",
+//     "price":"free"
+// }
+
