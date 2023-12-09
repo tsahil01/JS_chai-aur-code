@@ -28,7 +28,7 @@ JsUser.email = "s@s.s" // to change values
 
 // Object.freeze(JsUser) // now we cant change values of JsUser object
 
-JsUser.greeting = function(){
+JsUser.greeting = function(){ // custome functions
     console.log("Hello JS user")
 }
 
