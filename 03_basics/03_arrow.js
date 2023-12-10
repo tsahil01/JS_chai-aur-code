@@ -1,4 +1,3 @@
-
 const user = {
     username: "Sahil",
     price: 999,
