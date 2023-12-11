@@ -1,39 +1,38 @@
-const coding = ["js", "ruby", "java", "python", "cpp"]
+const coding = ["js", "ruby", "python"]
 
-// coding.forEach( function (val){
-//     console.log(val);
+// coding.forEach( function(item){
 // } )
 
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
+
+coding.forEach( (item) => {
+    // console.log(item);
+} )
 
 // function printMe(item){
 //     console.log(item);
 // }
-
 // coding.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
-// } )
+coding.forEach( (item, index, arr)=> {
+    // console.log(item, index, arr);
+} )
 
 const myCoding = [
     {
-        languageName: "javascript",
-        languageFileName: "js"
+        langName : "JS",
+        langFile : "js"
     },
     {
-        languageName: "java",
-        languageFileName: "java"
+        langName : "CPP",
+        langFile : "cpp"
     },
     {
-        languageName: "python",
-        languageFileName: "py"
-    },
+        langName : "Python",
+        langFile : "py"
+    }
 ]
 
 myCoding.forEach( (item) => {
-    
-    console.log(item.languageName);
+    // console.log(`${item.langName} : ${item.langFile}`);
 } )
+
