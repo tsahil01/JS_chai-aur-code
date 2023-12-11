@@ -1,0 +1,6 @@
+JS Execution Context -->
+    1. Global EC (`this`)
+    2. Function EC
+    3. Eval EC
+
+    
