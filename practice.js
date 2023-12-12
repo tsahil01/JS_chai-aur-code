@@ -1,9 +1,12 @@
-function addThreeNum(n1, n2, n3){
-    return n1+n2+n3;
+const arr = [1 , 4, 5, 7, 8, 7]
+
+// arr.forEach((item, index, ar) => {console.log(item, index, ar);})
+
+const obj = {
+    name : "Sah",
+    class : 10
 }
 
-console.log(()=>{
-
-});
-
-console.log(addThreeNum(10, 30, 50));
+for (const key in obj) {
+    console.log(key);
+}
