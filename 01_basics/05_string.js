@@ -16,14 +16,14 @@ const gameName = new String('sahiltiwaskargame') // to declare a string
 
 const newName = gameName.substring(0, 5)
 // console.log(newName)
+// console.log(gameName);
 
-
-const anotherName = gameName.slice(-1, 6)
+const anotherName = gameName.slice(1, -3)
 // console.log(anotherName)
 
 const anotherNameOne = "        Sahil       "
 // console.log(anotherNameOne)
-// console.log(anotherNameOne.trim())
+// console.log(anotherNameOne.trim()) // removes spaces
 
 const url = "https://sahil.com/sahil%20tiwaskar"
 // console.log(url.replace('%20', '-'))
