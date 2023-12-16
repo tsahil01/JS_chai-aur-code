@@ -10,14 +10,14 @@ const title = document.getElementById("title")
 // .innerHTML, .innerText, .textContent => will give same op but they are different!
 
 
-// .innerText will show only the text which is diplayed on the screen
-// .innertextConent will show all the text which was even hidden by some css property
-// .innerHTML will give inner html tags also with the text
+// .innerText   will show only the text which is diplayed on the screen
+// .innertextConent   will show all the text which was even hidden by some css property
+// .innerHTML   will give inner html tags also with the text
 
 
-// query selectors selected the tag!
+// query selectors selects the tag!
 // document.querySelector('h1')  // this will give first h1 tag present in document
-// document.querySelectorAll('h2') // this will give all h2 tag present in document
+// document.querySelectorAll('h2') // this will give all h2 tag present in document in the form of nodeList
 
 
 
