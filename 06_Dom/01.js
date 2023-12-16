@@ -17,7 +17,7 @@ const title = document.getElementById("title")
 
 // query selectors selects the tag!
 // document.querySelector('h1')  // this will give first h1 tag present in document
-// document.querySelectorAll('h2') // this will give all h2 tag present in document in the form of nodeList
+// document.querySelectorAll('h2') // this will give all h2 tag present in document in the form of nodeList. NodeList is not array!!
 
 
 
