@@ -1,3 +1,7 @@
+// MDN-DOM => https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+
+
 // document.getElementsByClassName("heading").INNERHTML = "HEADINGGGGG"  // not correct
 
 const title = document.getElementById("title")
