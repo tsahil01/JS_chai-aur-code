@@ -47,15 +47,15 @@ a = String(a)
 // console.log(obj3);
 
 
-const map = new Map()
+// const map = new Map()
 
-map.set('IN', "India")
-map.set('IN', "India") // no duplicates
-map.set('USA', "United States of America")
+// map.set('IN', "India")
+// map.set('IN', "India") // no duplicates
+// map.set('USA', "United States of America")
 
-const prog = ["js", "rb", "cpp", "java"]
+// const prog = ["js", "rb", "cpp", "java"]
 
-for (const i in prog) { // i gives the array keys(position)
-    console.log(i);
-    console.log(prog[i]);
+// for (const i in prog) { // i gives the array keys(position)
+//     console.log(i);
+//     console.log(prog[i]);
 }
