@@ -1,47 +1,23 @@
-// // Dates and Time
+let a = 10;
+let b = 20;
+const s = "Sahil"
+// console.table([a, b, s])
 
-// const date = new Date()
-// // console.log(date);
-// console.log(date.getDay());
+// console.log(typeof (String(a)));
+a = String(a)
+// console.log(typeof a );
 
-// const newDate = new Date(2023, 11, 23);
-// console.log(newDate);
-
-
-// // // Arrays -->
-
-// const myarr = []
-
-// myarr.push( 20, 30, 50, 70)
-// myarr.unshift(60)
-// // console.log(myarr);
-
-// const myarray = [20, 50, 60, 25]
-
-// const arrthree = [...myarr, ...myarr]
-// // console.log(arrthree);
+console.log(s.charAt(3));
 
 
-// const user = {}
-// user.greet = (i) => console.log(i+i);
+// let str1 = "abcba"
 
-// user.greet(2)
+// // length = 5
+// // i=> 0 1 2
+//     // 0 ---> a ==   
 
-
-// IIFE - immediate invoked function execution ---> ()();
-
-// (
-//     (item) => {
-//         console.log(item);
-// })(10);
-
-
-const mynums = [10, 50, 5, 2, 7, 3, 7]
-
-// const a = mynums.filter((i) => i>=10 )
-const a = mynums.map((i) => i*i)
-console.log(a);
-
-
-
+// for (let i = 0; i < str1.length/2; i++) {
+//     if(str1[i] === str1.charAt(str1.length-i-1))
+//     console.log(`${str1[i]}, ${str1.charAt(str1.length-i-1)}`);    
+// }
 
