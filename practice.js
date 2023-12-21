@@ -7,7 +7,7 @@ const s = "Sahil"
 a = String(a)
 // console.log(typeof a );
 
-console.log(s.charAt(3));
+// console.log(s.charAt(3));
 
 
 // let str1 = "abcba"
@@ -21,3 +21,6 @@ console.log(s.charAt(3));
 //     console.log(`${str1[i]}, ${str1.charAt(str1.length-i-1)}`);    
 // }
 
+const anotherNameOne = "        Sahil       "
+let strArray = anotherNameOne.trim().toLowerCase().split("").sort().join("")
+console.log(strArray)
