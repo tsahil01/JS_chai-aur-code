@@ -60,4 +60,17 @@ form.addEventListener('submit', (e)=>{
     results.innerHTML = `You BMI is: ${weight/(height*height)}`
   }
 
-})```
+})
+```
+
+## project-3
+```javascript
+function getTime(){
+  let time = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
+
+  let clockId = document.getElementById('clock')
+  clockId.innerHTML = time
+}
+
+setInterval(getTime, 1000)
+```
