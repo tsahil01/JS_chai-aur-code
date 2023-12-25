@@ -84,3 +84,29 @@ async function consumedPromiseFive(){ // this ignores the reject and only accept
 }
 
 consumedPromiseFive()
+
+
+
+
+// async function getAllUsers(){
+//     try{
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+//         const data = await response.json() // why await here??? Beacuse it takes time!!
+//         console.log(data);
+//     } catch(err){
+//         console.log("E: ", err);
+//     }
+// }
+// getAllUsers()
+
+
+
+// Above task using .then() and .catch() ====>>>>
+
+fetch('https://jsonplaceholder.typicode.com/users').then( (response)=>{
+    return response.json()
+}).then( (data)=>{
+    console.log(data)
+}).catch((err)=>{
+    console.log(err)
+})
