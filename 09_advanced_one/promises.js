@@ -1,4 +1,5 @@
 // new Promise( (resolve, reject) => {} ) //syntax of Promise
+
 const promiseOne = new Promise(function(resolve, reject){
     // Do an async Task
     setTimeout( function(){
@@ -32,6 +33,8 @@ const promiseThree = new Promise(function(resolve, reject){
 promiseThree.then(function(user){ // user -> data from resolve
     console.log(user)
 })
+
+
 
 const promiseFour = new Promise( (resolve, reject) => {
     setTimeout(()=>{
