@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Chai n JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+      const startKey = document.querySelector('#start');
+      const stopKey = document.querySelector('#stop');
+      let intervalId; // Store the interval ID
+
+      function sayDate(str) {
+        console.log(str, Date.now());
+      }
+
+      function startInterval() {
+        intervalId = setInterval(sayDate, 1000, "hey");
+      }
+
+      function clearInt() {
+        clearInterval(intervalId);
+      }
+
+      startKey.addEventListener('click', startInterval);
+      stopKey.addEventListener('click', clearInt);
+    </script>
+  </body>
+</html>
