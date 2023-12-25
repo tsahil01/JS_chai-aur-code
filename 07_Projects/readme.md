@@ -103,6 +103,7 @@ function startInterval(){
 
 function stopInterval(){
   clearInterval(intervalId)
+  intervalId = null
 }
 
 startKey.addEventListener('click', startInterval)
