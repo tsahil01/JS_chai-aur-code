@@ -98,7 +98,9 @@ function changeColor() {
 let intervalId;
 
 function startInterval(){
-  intervalId = setInterval(changeColor, 1000)
+  if(!intervalId){
+    intervalId = setInterval(changeColor, 1000)
+  }
 }
 
 function stopInterval(){
