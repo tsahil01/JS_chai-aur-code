@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Chai n Code</h1>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Best JS series"
+    }
+    let changeMe = setTimeout(changeText, 4000)
+    document.querySelector('#stop').addEventListener('click', ()=> {
+      clearTimeout(changeText)
+      console.log("Stopped" )} )
+  </script>
+</html>
