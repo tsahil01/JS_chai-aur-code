@@ -74,3 +74,37 @@ function getTime(){
 
 setInterval(getTime, 1000)
 ```
+
+## project-6
+```javascript
+const startKey = document.querySelector('#start');
+const stopKey = document.querySelector('#stop');
+
+const randomColor = function () {
+  const hex = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    let pos = Math.floor(Math.random() * 16);
+    color += hex[pos];
+  }
+  return color;
+};
+
+
+function changeColor() {
+  document.body.style.backgroundColor = `${randomColor()}`;
+}
+
+let intervalId;
+
+function startInterval(){
+  intervalId = setInterval(changeColor, 1000)
+}
+
+function stopInterval(){
+  clearInterval(intervalId)
+}
+
+startKey.addEventListener('click', startInterval)
+stopKey.addEventListener('click', stopInterval)
+```
