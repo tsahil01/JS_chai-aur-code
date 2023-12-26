@@ -19,7 +19,7 @@ let myTimeStamp = Date.now()
 
 // console.log(Math.floor(Date.now()/1000)); // in seconds
 
-console.log(myDate.getMonth());
+// console.log(myDate.getMonth());
 
 myDate.toLocaleString('default',{
     weekday :"long",
