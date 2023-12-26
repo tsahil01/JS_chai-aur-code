@@ -59,3 +59,24 @@ a = String(a)
 //     console.log(i);
 //     console.log(prog[i]);
 // }
+
+
+
+
+
+// PROMISE =>
+
+new Promise( (resolve, reject)=>{
+    setTimeout( ()=> {
+        user = {username:"Sahil", id:1234}
+        let err = false;
+        if(!err){
+            resolve(user)
+        } else{
+            reject()
+        }
+    }, 1000)
+})
+    .then( (user)=> console.log(user) )
+    .catch( ()=> console.log("Error occured!") )
+    .finally( ()=> console.log("Finally done!") )
