@@ -80,3 +80,13 @@ new Promise( (resolve, reject)=>{
     .then( (user)=> console.log(user) )
     .catch( ()=> console.log("Error occured!") )
     .finally( ()=> console.log("Finally done!") )
+
+
+fetch('https://jsonplaceholder.typicode.com/users').then( (response) =>{
+    return response.json()
+} ).then( (data)=>{
+    console.log(data)
+} ).catch( (err)=>{
+    console.log("Error Occured!!!!")
+    console.log(err)
+})
