@@ -43,5 +43,6 @@ function deleteFruit(fruitNumber){
 }
 
 addNewFruit("Kiwi", 'item', 'items-ul')
+addNewFruit("Kiiiiwi", 'item', 'items-ul')
 replaceFruit(2, 'new apple', 'item')
 deleteFruit(4)
